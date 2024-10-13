@@ -131,33 +131,13 @@ img {
  /***********************************************
 /**************MEDIA QUERIES********************
 ************************************************/
-@media screen and (max-with:1140px){
+
+@media screen and (max-with: 768px){
     .container{
-        width: 70%;
-        max-width: 1100px;
-    }
-
-    .row {
-        flex-wrap: wrap;
-      }
-
-}
-
-@media screen and (max-with:768px){
-     .container{
         width: 90%;
-     }
-
-     .col{
-        width: calc(100% / 2);
-     }
-
-
-     .row {
-        flex-wrap: wrap;
-      }
+    }
+    
 }
-
 @media screen and (max-width: 480px){
     
     *{
@@ -207,13 +187,10 @@ img {
         display: block;
       }
 
-      /* h3{
-        text-align: center;
-      } */
-
     .lessons .col{
         width: 100%;
     
     }
+    
     
 }
