@@ -133,7 +133,7 @@ img {
 ************************************************/
 @media screen and (min-width: 768px) and (max-width:1200px) {
     .container {
-      width: 800px;
+      width: 760px;
     }
   
   }
@@ -149,7 +149,7 @@ img {
 
 @media screen and (max-width: 480px){
     
-    *{
+    /* *{
         box-sizing: content-box;
     }
 
@@ -201,5 +201,28 @@ img {
     
     }
     
+    */
+
+    .row{
+        flex-wrap: wrap;
+        row-gap: 60px;
+    } 
+
+    .row .col{
+        width: 100%;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    .why-us{
+
+        background-color: black;
+        margin-bottom: 0;
+        padding-bottom: 3rem 0;
+    }
+
+
     
 }
